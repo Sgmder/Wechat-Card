@@ -26,6 +26,7 @@ public class CardSDK {
     private static String app_secret = "23e08ce613739088ec1d617b60911fbf";
     private static CloseableHttpClient client = HttpClients.createDefault();
 
+    // 增加测试白名单 微信账号
     public static void main1(String[] args) {
         // 获取access_token
         String accessToken = getAccessToken(app_id, app_secret);
